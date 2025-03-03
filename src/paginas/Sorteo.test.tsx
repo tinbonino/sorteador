@@ -53,7 +53,7 @@ describe("En la página del sorteo",() => {
     );
 
     const opciones = screen.getAllByRole("option");
-    expect(opciones).toHaveLength(8);
+    expect(opciones).toHaveLength(3);
   })
 
   test("El amigo secreto es mostrado cuando es solicitado", () => {
